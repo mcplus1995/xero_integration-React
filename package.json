@@ -1,0 +1,83 @@
+{
+  "name": "xero",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mobiscroll/react-lite": "^4.10.9",
+    "@mui/material": "^5.15.12",
+    "@mui/styles": "^5.15.12",
+    "@mui/x-date-pickers": "^6.18.3",
+    "@react-google-maps/api": "^2.19.3",
+    "@react-pdf/renderer": "^3.4.2",
+    "@stripe/react-stripe-js": "^2.6.2",
+    "@stripe/stripe-js": "^3.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/frappe-gantt": "^0.6.4",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/payment": "^2.1.7",
+    "@types/react": "^18.0.0",
+    "@types/react-credit-cards": "^0.8.4",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "dayjs": "^1.11.10",
+    "frappe-gantt": "^0.6.1",
+    "mui-tel-input": "^5.0.0",
+    "postcss": "^8.4.32",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.8.0",
+    "react-big-calendar": "^1.11.1",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
+    "react-to-print": "^2.15.1",
+    "react-toastify": "^9.1.3",
+    "typescript": "^4.4.2",
+    "use-places-autocomplete": "^4.0.1",
+    "web-vitals": "^2.1.0",
+    "xero-node": "^4.37.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "fmt": "yarn prettier 'src/**/*.{ts,tsx}' -w",
+    "fmt:check": "yarn prettier 'src/**/*.{ts,tsx}' --check",
+    "types:check": "yarn tsc --noEmit",
+    "check-types": "yarn tsc --noEmit"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/react-big-calendar": "^1.8.9",
+    "@types/react-scroll": "^1.8.10",
+    "prettier": "3.1.0",
+    "tailwindcss": "^3.3.6"
+  }
+}
